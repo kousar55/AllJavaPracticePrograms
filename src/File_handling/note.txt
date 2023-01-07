@@ -1,0 +1,8 @@
+java IO is a Blocking .this means that if a thread is invoking a read() or write()
+()opetaion ,that thread is blocked until there is some data to read or the data is fully written.
+that's why it is synchronous IO or blocking IO
+
+
+unlike  Java IO , Java NIO is a Non-blocking IO.this means that if a thread is invoking a read()
+or write(0 operation ,that thread is non blocked until thre is some data to read or the dat is fully written
+rather the thread go on something else.that's why it is an synchreonous IO or non-blocking IO
